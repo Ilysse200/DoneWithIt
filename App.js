@@ -3,11 +3,12 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   //simplest way to debug our application during development
+  let x = 1;
   console.log('App executed!');
 
-  //Chrome debugging
-  let x;
-  x.toString();
+  // //Chrome debugging
+  // let x;
+  // x.toString();
   
   return (
     <View style={styles.container}>

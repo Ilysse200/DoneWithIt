@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Expo",
+      "type": "reactnative",
+      "request": "launch",
+      "platform": "exponent",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Attach to Expo",
+      "type": "reactnative", 
+      "request": "attach",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
